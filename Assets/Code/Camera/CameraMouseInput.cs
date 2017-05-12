@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// Copyright(C) 2017, Alexander Verbeek
+
+using UnityEngine;
 using System.Collections;
 
 /// <summary>
@@ -27,6 +29,16 @@ public class CameraMouseInput : MonoBehaviour
 
 			cam.Move(moveDelta.x, -moveDelta.y);
 		}
+
+        float scrollDelta = Input.mouseScrollDelta.y;
+        if(scrollDelta > 0) {
+            cam.ZoomIn();
+        } else if(scrollDelta < 0) {
+            cam.ZoomOut();
+        }
+        
+
+
 		prevMousePos = Input.mousePosition;
 	}
 }

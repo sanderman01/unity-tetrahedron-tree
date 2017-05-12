@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// Copyright(C) 2017, Alexander Verbeek
+
+using UnityEngine;
 using System.Collections;
 
 /// <summary>
