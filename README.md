@@ -10,3 +10,5 @@ This project demonstrates an approach to:
 1. create a tetrahedron shape.
 2. combine multiple tetrahedrons into a larger tree shape, based on a random seed.
 3. converting the tree into a triangle mesh for rendering.
+
+![Image of tetrahedron trees](http://i.imgur.com/In6tj7G.png)
